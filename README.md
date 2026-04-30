@@ -9,6 +9,9 @@ In this work, we comprehensively consider multiple design factors to obtain high
 </div>
 
 ## News
+- Jan 2026: 🔥 [MobileLLM-R1](https://arxiv.org/pdf/2509.24945) has been accepted to ICLR 2026. 
+- Nov 2025: 🌟 [MobileLLM-R1.5](https://huggingface.co/collections/facebook/mobilellm-r15) is released. MobileLLM-R1.5-950M outperforms DeepSeek-R1-Distill-Qwen-1.5B on all evaluated math and coding benchmarks, despite having significantly fewer parameters (0.95B vs. 1.5B).
+- Sept 2025: 🔥 Our follow-up work, [MobileLLM-R1](https://arxiv.org/pdf/2509.24945) is released. With only ~2T pretraining tokens (<5T total), it matches or surpasses Qwen3-0.6B (36T tokens) on MATH, GSM8K, MMLU, and LiveCodeBench. All code, models, data, and training recipes are released. [HuggingFace](https://huggingface.co/collections/facebook/mobilellm-r1)
 - Oct 30, 2024: 🚀 MobileLLM models are publicly available on [HuggingFace](https://huggingface.co/collections/facebook/mobilellm-6722be18cb86c20ebe113e95)
 
 ## Citation
@@ -129,9 +132,15 @@ Changsheng Zhao, Meta Inc (cszhao at meta dot com)
 
 ## Relevant Projects
 
-SpinQuant: LLM Quantization with Learned Rotations [[Paper](https://arxiv.org/pdf/2405.16406)] [[Code](https://github.com/facebookresearch/SpinQuant)]
+SpinQuant: LLM Quantization with Learned Rotations (ICLR 2025) [[Paper](https://arxiv.org/pdf/2405.16406)] [[Code](https://github.com/facebookresearch/SpinQuant)]
 
 LLM-QAT: Data-Free Quantization Aware Training for Large Language Models [[Paper](https://arxiv.org/pdf/2305.17888)] [[Code](https://github.com/facebookresearch/LLM-QAT)]
+
+## What's Next?
+
+MobileLLM-R1: Exploring the Limits of Sub-Billion Language Model Reasoners with Open Training Recipes (ICLR 2026)[[Paper](https://arxiv.org/pdf/2509.24945)] [[Code](https://github.com/facebookresearch/MobileLLM-R1)] [[Models](https://huggingface.co/collections/facebook/mobilellm-r1)]
+
+MobileLLM-R1.5 [[Models](https://huggingface.co/collections/facebook/mobilellm-r15)]
 
 ## License
 
